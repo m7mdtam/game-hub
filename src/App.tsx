@@ -12,13 +12,13 @@ function App() {
       <GridItem area="nav" >
         <NavBar />
       </GridItem>
-      <Stack hideBelow="md">
-        <GridItem area="aside" bg={"gold"}>
+      <Stack hideBelow="lg">
+        <GridItem area="aside" >
         Aside
       </GridItem>
       </Stack>
       
-      <GridItem area="main" bg={"dodgerblue"}>
+      <GridItem area="main" >
         Main
       </GridItem>
     </Grid>

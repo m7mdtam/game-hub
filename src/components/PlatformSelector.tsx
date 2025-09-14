@@ -12,9 +12,9 @@ const PlatformSelector = ({onSelectPlatform , selectedPlatform} : Props) => {
 const {data ,error} = usePlatforms()
 if(error) return null
   return (
-<Menu.Root>
+<Menu.Root >
       <Menu.Trigger asChild>
-        <Button variant="outline" size="sm">
+        <Button  variant="outline" size="sm">
           {selectedPlatform?.name || "Platforms"}
         </Button>
       </Menu.Trigger>

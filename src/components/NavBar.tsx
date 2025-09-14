@@ -7,7 +7,7 @@ onSearch: (searchText:string) => void
 }
 const NavBar = ({onSearch} :Props) => {
   return (
-    <HStack justifyContent={"space-between"} padding="10px">
+    <HStack  justifyContent={"space-between"} padding="10px" color="pink.400">
       <Image src={logo} alt="logo" boxSize="45px" />
 <SearchInput  onSearch={onSearch}  />
       <ColorModeSwitch />

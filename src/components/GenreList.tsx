@@ -8,7 +8,6 @@ import {
   ListItem,
   Spinner,
   Button,
-  useComboboxStyles,
 } from "@chakra-ui/react";
 
 interface Props {
@@ -35,7 +34,7 @@ const GenreList = ({selectedGenre, onSelectGenre }: Props) => {
               boxSize="32px"
               borderRadius="8px"
             />
-            <Button
+            <Button whiteSpace={"normal"}
             fontWeight={genre.id === selectedGenre?.id ? 'bold' : 'normal'}
             onClick={() => {
                 

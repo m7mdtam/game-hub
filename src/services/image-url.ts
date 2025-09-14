@@ -1,4 +1,8 @@
+import noimage from '../assets/noimage.jfif'
+
 const getCroppedImageUrl = (url: string) => {
+
+if(!url) return noimage;
 
 const target = 'media/';
 const index = url.indexOf(target)+target.length;
